@@ -28,10 +28,10 @@ public class MatrizApp {
 				if (matriz_inicial[i][j] == numAencontrar) {
 					if (vecesEncontrado == 0) {
 						System.out.println("El número se encuentra en la matriz !!");
-						System.out.println("fila = " + i + " Columna = " + j);
+						System.out.println("fila = " + (i+1) + " Columna = " + (j+1));
 						encontrado = true;
 					}else {
-						System.out.println("fila = " + i + " Columna = " + j);
+						System.out.println("fila = " + (i+1) + " Columna = " + (j+1));
 					}
 				}
 			}
