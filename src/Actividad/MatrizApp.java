@@ -46,8 +46,10 @@ public class MatrizApp {
 						System.out.println("El número se encuentra en la matriz !!");
 						System.out.println("fila = " + (i+1) + " Columna = " + (j+1));
 						encontrado = true;
+						vecesEncontrado++;
 					}else {
 						System.out.println("fila = " + (i+1) + " Columna = " + (j+1));
+						vecesEncontrado++;
 					}
 				}
 			}
@@ -55,6 +57,8 @@ public class MatrizApp {
 		
 		if (!encontrado) {
 			System.out.println("no se ha encontrado el número en la matriz");
+		} else {
+			System.out.println("Ha sido encontrado " + vecesEncontrado + " veces dento de la matriz");
 		}
 	}
 }
