@@ -6,6 +6,13 @@ public class MatrizApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+		
+		
+		
+		
+		
+		
 		//buscar un numero en la matriz (marc)
 		Scanner entradaTec = new Scanner(System.in);
 		
